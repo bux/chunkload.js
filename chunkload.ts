@@ -4,7 +4,6 @@ module Downloader {
 
         private m_arrBlobs: any[];
         private m_chunkQueue: Chunk[];
-        private m_fsh: FileSystemHandler;
 
         private m_fileGuid: string;
         private m_requestUrl: string;
