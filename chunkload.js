@@ -74,7 +74,8 @@ var Downloader;
             this.m_allChunkDownloadedCallback(finalBlob);
         };
         return ChunkLoader;
-    })();    
+    })();
+    Downloader.ChunkLoader = ChunkLoader;    
     var Chunk = (function () {
         function Chunk(chunkNr, fileGuid) {
             this.m_chunkNr = chunkNr;
