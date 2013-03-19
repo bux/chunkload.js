@@ -1,6 +1,6 @@
 module Downloader {
 
-     class ChunkLoader { 
+    export class ChunkLoader { 
 
         private m_arrBlobs: any[];
         private m_chunkQueue: Chunk[];
